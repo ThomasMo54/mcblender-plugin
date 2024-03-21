@@ -1,4 +1,7 @@
 package com.motompro.mcblender.core
 
-class MCBlenderAPIImpl {
+import com.motompro.mcblender.api.MCBlenderAPI
+
+class MCBlenderAPIImpl : MCBlenderAPI {
+
 }

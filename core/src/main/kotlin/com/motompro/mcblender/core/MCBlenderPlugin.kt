@@ -1,4 +1,14 @@
 package com.motompro.mcblender.core
 
-class MCBlenderPlugin {
+import org.bukkit.plugin.java.JavaPlugin
+
+class MCBlenderPlugin : JavaPlugin() {
+
+    override fun onEnable() {
+        super.onEnable()
+    }
+
+    override fun onDisable() {
+        super.onDisable()
+    }
 }
