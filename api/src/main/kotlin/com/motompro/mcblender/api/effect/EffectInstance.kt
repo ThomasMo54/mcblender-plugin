@@ -2,6 +2,7 @@ package com.motompro.mcblender.api.effect
 
 import org.bukkit.Location
 import org.bukkit.entity.Player
+import org.bukkit.util.Vector
 
 /**
  * An interface that describes an instance of a particle effect
@@ -67,6 +68,27 @@ interface EffectInstance {
      * Make this effect visible for every player (= clearing the [playersWhoCanSee] list).
      */
     fun makeVisibleForEveryone()
+
+    /**
+     * Rotate this effect around the X axis by the given angle.
+     *
+     * @param angle the angle in radians
+     */
+    fun rotateAroundX(angle: Double)
+
+    /**
+     * Rotate this effect around the Y axis by the given angle.
+     *
+     * @param angle the angle in radians
+     */
+    fun rotateAroundY(angle: Double)
+
+    /**
+     * Rotate this effect around the Z axis by the given angle.
+     *
+     * @param angle the angle in radians
+     */
+    fun rotateAroundZ(angle: Double)
 
     /**
      * Make this effect disappear.

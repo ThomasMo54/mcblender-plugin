@@ -11,6 +11,7 @@ dependencyResolutionManagement {
     versionCatalogs {
         create("libs") {
             library("spigot-api", "org.spigotmc:spigot-api:1.12.2-R0.1-SNAPSHOT")
+            library("snakeyaml", "org.yaml:snakeyaml:1.33")
         }
     }
 }

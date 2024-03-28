@@ -8,7 +8,7 @@ import org.bukkit.Location
 interface Effect {
 
     /**
-     * Spawn an instance of this effect to the given location. It will be visible by everyone.
+     * Spawn an instance of this effect to the given location.
      *
      * @param location the location
      * @return an instance of this effect

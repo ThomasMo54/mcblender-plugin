@@ -9,6 +9,7 @@ version = rootProject.version
 dependencies {
     compileOnly(libs.spigot.api)
     implementation(project(":api"))
+    implementation(libs.snakeyaml)
     testImplementation("org.jetbrains.kotlin:kotlin-test")
 }
 

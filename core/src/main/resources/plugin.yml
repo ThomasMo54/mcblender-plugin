@@ -1,5 +1,11 @@
 name: MCBlender
 version: 1.0-SNAPSHOT
 main: com.motompro.mcblender.core.MCBlenderPlugin
-api-version: 1.12
-authors: [ TomMo ]
+authors: [ "TomMo" ]
+commands:
+  mcbspawn:
+    aliases: [ "mcbs" ]
+    permission: "command.mcblender.mcbspawn"
+  mcbremove:
+    aliases: [ "mcbr" ]
+    permission: "command.mcblender.mcbremove"
